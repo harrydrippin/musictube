@@ -1,7 +1,7 @@
 <template>
   <div id="search-box">
     <div class="header">
-      <img class="header-logo" src="../../assets/logo.png">
+      <img class="header-logo" src="https://github.com/harrydrippin/musictube/blob/master/dist/logo.png?raw=true">
       <span class="header-logo-typo">MusicTube</span>
       <div class="header-search">
           <input v-model="search"

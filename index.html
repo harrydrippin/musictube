@@ -38,9 +38,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
     <script>
-    $(document).ready(function($){
-      if(isMobile) {
-        location.href = "http://youtube.com/red";
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+    
+    jQuery(document).ready(function($){
+      if (isMobile) {
+        location.href = "https://youtube.com/red";
       }
     });
     </script>
